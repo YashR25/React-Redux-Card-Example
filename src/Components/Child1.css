@@ -1,0 +1,40 @@
+
+.container{
+    display: flex;
+    gap: 20px;
+    padding: 1rem;
+    justify-content: center;
+}
+
+input{
+    padding: 1rem;
+    border-radius: 20px;
+}
+
+input:focus{
+    border-color: blue;
+}
+
+.button{
+    background-color: blue;
+    color: white;
+    box-shadow: 2px 2px black;
+    padding: 1rem;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.button:active{
+    box-shadow: none;
+}
+
+nav{
+    background-color: black;
+    color: white;
+    padding: 1rem;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    align-items: center;
+}
